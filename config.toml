@@ -1,7 +1,7 @@
 [YouTube-Extended]
 app-name = "YouTube"
 patches-source = "YT-Advanced/revanced-patches"
-integrations-source = "YT-Advanced/LOL"
+integrations-source = "YT-Advanced/testintes"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "apk"
