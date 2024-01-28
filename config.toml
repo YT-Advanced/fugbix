@@ -1,8 +1,10 @@
-[YouTube-Extended]
+[YouTube]
 app-name = "YouTube"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "YT-Advanced/revanced-patches"
-integrations-source = "YT-Advanced/testintes"
+integrations-source = "YT-Advanced/testinte"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "apk"
+rv-brand = "YouTube"
+arch = "arm64-v8a"
+included-patches = "'Add splash animation' 'Disable landscape mode' 'Enable debug logging' 'Enable song search' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide player button background' 'Hide voice search button' 'MaterialYou' 'Premium heading' 'Shorts outline button'"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
