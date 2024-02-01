@@ -1,8 +1,8 @@
 [YouTube]
 app-name = "YouTube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "YT-Advanced/revanced-patches"
-integrations-source = "YT-Advanced/testinte"
+patches-source = "BashisPower/Backup"
+integrations-source = "YT-Advanced/testintes"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "YouTube"
 arch = "arm64-v8a"
