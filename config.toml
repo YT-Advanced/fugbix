@@ -1,4 +1,5 @@
 [YouTube]
+enable = false
 app-name = "YouTube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "BashisPower/Backup"
