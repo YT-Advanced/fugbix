@@ -1,5 +1,4 @@
 [YouTube]
-enable = false
 app-name = "YouTube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "BashisPower/Backup"
@@ -21,6 +20,5 @@ excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name Y
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "apk"
-arch = "arm64-v8a"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 version = "6.21.52"
