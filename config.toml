@@ -1,12 +1,28 @@
 [YouTube-Extended]
+enabled = false
 app-name = "YouTube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
+build-mode = "apk"
 arch = "arm64-v8a"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 included-patches = "'Add splash animation' 'Disable landscape mode' 'Enable debug logging' 'Enable song search' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide player button background' 'Hide voice search button' 'MaterialYou' 'Shorts outline button'"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
 version = "19.05.36"
+
+[Music-Extended]
+app-name = "Music"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "YT-Advanced/ReX-patches"
+integrations-source = "YT-Advanced/ReX-integrations"
+included-patches = "'Disable overlay filter' 'Enable debug logging' 'Hide voice search button' 'Replace cast button'"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "apk"
+arch = "arm64-v8a"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+version = "6.41.54"
