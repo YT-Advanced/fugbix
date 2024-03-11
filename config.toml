@@ -1,7 +1,7 @@
 [YouTube-Extended]
 app-name = "YouTube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "YT-Advanced/ReX-patches"
+patches-source = "BashisPower/Backup"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
@@ -10,7 +10,7 @@ arch = "arm64-v8a"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 included-patches = "'Add splash animation' 'Disable landscape mode' 'Enable debug logging' 'Enable song search' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide player button background' 'Hide voice search button' 'MaterialYou' 'Shorts outline button'"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
-version = "19.04.37"
+version = "18.29.38"
 
 [Music-Extended]
 enabled = false
