@@ -15,7 +15,6 @@ version = "19.07.40"
 
 [YouTube]
 build-mode = "both"
-patches-source = "BashisPower/Backup"
 excluded-patches = ""
 included-patches = ""
 version = "auto"
