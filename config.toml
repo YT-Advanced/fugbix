@@ -1,5 +1,4 @@
 [YouTube-Extended]
-enabled = false
 app-name = "YouTube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "BashisPower/Backup"
@@ -12,13 +11,6 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 included-patches = "'Add splash animation' 'Disable landscape mode' 'Enable debug logging' 'Enable song search' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide player button background' 'Hide voice search button' 'MaterialYou' 'Shorts outline button'"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
 version = "19.07.40"
-
-[YouTube]
-build-mode = "both"
-excluded-patches = ""
-included-patches = ""
-version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music-Extended]
 enabled = false
