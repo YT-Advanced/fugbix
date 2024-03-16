@@ -1,16 +1,25 @@
 [YouTube-Extended]
+enabled = false
 app-name = "YouTube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "BashisPower/Backup"
-integrations-source = "ReVanced/revanced-integrations"
-#cli-source = "inotia00/revanced-cli"
+integrations-source = "YT-Advanced/cmp"
+cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "apk"
 arch = "arm64-v8a"
-#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 included-patches = "'Add splash animation' 'Disable landscape mode' 'Enable debug logging' 'Enable song search' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide player button background' 'Hide voice search button' 'MaterialYou' 'Shorts outline button'"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
 version = "19.07.40"
+
+[YouTube]
+build-mode = "both"
+patches-source = "BashisPower/Backup"
+excluded-patches = ""
+included-patches = ""
+version = "auto"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music-Extended]
 enabled = false
