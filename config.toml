@@ -1,4 +1,5 @@
 [YouTube-Extended]
+enabled = false
 app-name = "YouTube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "YT-Advanced/ReX-patches"
@@ -13,11 +14,10 @@ excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube
 version = "19.09.38"
 
 [Music-Extended]
-enabled = false
 app-name = "Music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "BashisPower/Backup"
-integrations-source = "YT-Advanced/ReX-integrations"
+integrations-source = "YT-Advanced/shorts"
 included-patches = "'Disable overlay filter' 'Enable debug logging' 'Hide voice search button' 'Replace cast button'"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 cli-source = "inotia00/revanced-cli"
@@ -26,4 +26,4 @@ build-mode = "apk"
 arch = "arm64-v8a"
 #uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-version = "6.43.52"
+version = "6.44.54"
